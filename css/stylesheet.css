@@ -47,6 +47,11 @@
 }
 
 /*----------SEARCH BAR----------*/
+body{
+  background: #f2f2f2;
+  font-family: 'Open Sans', sans-serif;
+}
+
 .search {
   width: 100%;
   position: relative;
@@ -55,17 +60,17 @@
 
 .searchTerm {
   width: 100%;
-  border: 3px solid rgb(17, 145, 28);
+  border: 3px solid  rgb(17, 145, 28);
   border-right: none;
   padding: 5px;
   height: 36px;
   border-radius: 5px 0 0 5px;
   outline: none;
-  color: #9DBFAF;
+  color: #74817b;
 }
 
 .searchTerm:focus{
-  color: black;
+  color: #000000;
 }
 
 .searchButton {
@@ -73,6 +78,7 @@
   height: 36px;
   border: 1px solid rgb(17, 145, 28);
   background: rgb(17, 145, 28);
+  background-image: url("../images/search.png");
   text-align: center;
   color: #fff;
   border-radius: 0 5px 5px 0;
@@ -84,7 +90,7 @@
 .wrap{
   width: 20%;
   position: absolute;
-  left: 85%;
+  left: 80%;
   transform: translate(-30%, -55px);
 }
 /*----------SEARCH BAR----------*/
