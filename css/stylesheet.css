@@ -29,8 +29,8 @@
 }
 
 .tab_detail {
-    margin-left: 2%;
-    margin-top: 5%;
+    margin-left: 5em;
+    margin-top: 5em;
 }
 
 .tab_detail > h3 {
@@ -41,14 +41,14 @@
 .tab_background {
     position: absolute;
     z-index: 1;
-    width: 9%;
+    width: 10em;
     height: 1500px;
     background-color: #CAF9B9;
 }
 
 /*----------SEARCH BAR----------*/
 body{
-  background: #f2f2f2;
+
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -93,6 +93,7 @@ body{
   left: 80%;
   transform: translate(-30%, -55px);
 }
+
 /*----------SEARCH BAR----------*/
 .tabs::after {
     content: "";
@@ -101,12 +102,12 @@ body{
 }
 
 .tab {
-    margin-left: 1%;
+    margin-left: 1em;
     position: absolute;
     z-index: 2;
     float: left;
     background-color: #f1f1f1;
-    width: 8%;
+    width: 9em;
 }
 
 /* Style the buttons that are used to open the tab content */
@@ -137,7 +138,7 @@ body{
 .tabcontent {
     border-radius: 1%;
     float: left;
-    padding: 0px 9%;
+    padding: 0px 9em;
     width: 100%;
     border-left: none;
     height: 300px;
